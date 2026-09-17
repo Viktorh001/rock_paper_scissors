@@ -19,6 +19,9 @@ function sumOddNumbers(numbers) {
 
     function isOdd(num) {
         return num % 2 !== 0;
-
-        const array = [1,2,3,4,5];
     }
+        const array = [1,2,3,4,5];
+        const oddNums = array.filter(isOdd);
+        console.log(oddNums);
+        // i tried but cant get anything into my head but i will keep trying
+    
