@@ -1,27 +1,16 @@
-//write a javascript program that runs through a list of arrays, finds numbers divisible byr
-//3 and sums them up and returns the answer to the console.
+// Write the function camelize(str) that changes dash-separated words like “my-short-string” into camel-cased “myShortString”.
 
-function sumOddNumbers(numbers) {
-    let sum = 0;
-    for (const i of mylist) {
-        if (i % 2 != 0) {
-            sum += i;
-        }
-    }
-    return sum;
-    }
+// That is: removes all dashes, each word after dash becomes uppercased.
 
+// Examples:
 
-    const mylist = [1,2,3,4,5];
-    console.log(sumOddNumbers(mylist));
+// camelize("background-color") == 'backgroundColor';
+// camelize("list-style-image") == 'listStyleImage';
+// camelize("-webkit-transition") == 'WebkitTransition';
 
-    //use the filter method to find odd numbers and return then in javascript
-
-    function isOdd(num) {
-        return num % 2 !== 0;
-    }
-        const array = [1,2,3,4,5];
-        const oddNums = array.filter(isOdd);
-        console.log(oddNums);
-        // i tried but cant get anything into my head but i will keep trying
-    
+const words = ["my", "short", "string"];
+const result = words.map((words) => {
+    words[0].toUpperCase() + word.slice(1);
+})
+//we need an else.
+console.log(result);
