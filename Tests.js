@@ -76,10 +76,19 @@
 //  elements of the array.
 // Multiple runs of shuffle may lead to different orders of elements. For instance:
 // let arr = [1,2,3] = shuffle(arr) = [3,2,1];
-// function shuffle(array) {
-//     const result = Math.floor(Math.random() * array.length);
+function shuffle(array) {
+    let shuffled = [];
+    for (array.) {
 
-//     return result;
-// }
+    }
+}
+function shuffle(array) {
+    
+    let randomIndex = Math.floor(Math.random() * array.length);
+    const removed = array.splice(randomIndex, 1);
+    array.push(removed[0]);
 
-// console.log(shuffle([1,2,3,4,5,6]));
+
+}
+
+console.log(shuffle([1,2,3,4,5,6]));
